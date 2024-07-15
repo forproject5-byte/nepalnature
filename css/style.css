@@ -1,0 +1,239 @@
+/* Website template by freewebsitetemplates.com */
+body {
+    background: #cfe8e1 url(../images/bg-body.jpg) repeat left bottom; /* Updated background color */
+    font-family: "Arial", sans-serif; /* Changed font for better readability */
+    margin: 0;
+}
+
+#background {
+    background: url(../images/bg-pattern.jpg) repeat-x center top;
+    min-height: 1318px;
+}
+
+#page {
+    width: 960px;
+    margin: 0 auto;
+}
+
+img {
+    border: 0;
+}
+
+/* Header */
+#header {
+    margin-bottom: 20px;
+    padding-top: 20px;
+}
+
+#logo {
+    float: left;
+    margin-bottom: 20px;
+    margin-left: 49px;
+}
+
+#navigation {
+    background: none; /* Removed background image for a cleaner look */
+    clear: both;
+    height: 50px;
+    width: 860px;
+    margin: 0 auto;
+    padding: 1px;
+}
+
+#navigation ul {
+    display: inline-block;
+    width: 860px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#navigation li {
+    float: left;
+    height: 49px;
+    width: 122px;
+    margin: 0;
+    padding-left: 1px;
+    text-align: center;
+}
+
+#navigation li:first-child {
+    margin-left: 0;
+    padding-left: 0;
+}
+
+#navigation li a {
+    color: #fff;
+    display: block;
+    font: bold 14px Arial, Helvetica, sans-serif;
+    height: 49px;
+    line-height: 49px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+#navigation li a:hover {
+    color: #6d6157;
+}
+
+#navigation li.selected a {
+    color: #e4e1bd;
+}
+
+/* Contents */
+#contents {
+    display: inline-block;
+    width: 865px;
+    padding: 0 47px;
+}
+
+#contents h1 {
+    color: #316e66;
+    font: 26px/30px "Arial", sans-serif;
+    margin: 18px 0 20px;
+    text-transform: uppercase;
+}
+
+#contents h2 {
+    color: #316e66;
+    font-size: 22px;
+    margin: 0 0 30px;
+    text-transform: uppercase;
+}
+
+#contents p {
+    color: #5a4535;
+    font-size: 15px;
+    line-height: 24px;
+    margin: 0;
+    padding: 0 0 24px;
+}
+
+/* Footer */
+#footer {
+    color: #594334;
+    font-size: 14px;
+    line-height: 48px;
+    margin: -38px 0 20px;
+    padding-top: 42px;
+    text-transform: uppercase;
+}
+
+#footer > div {
+    background-color: #ac9e94;
+    height: 48px;
+    width: 822px;
+    border-bottom: 1px solid #72675f;
+    border-top: 1px solid #cdbeb2;
+    margin: 0 auto;
+    padding: 0 20px;
+    text-align: right;
+}
+
+#footer ul.navigation {
+    float: left;
+    display: inline-block;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#footer ul.navigation li {
+    float: left;
+    margin-right: 10px;
+}
+
+#footer ul.navigation li a {
+    color: #594334;
+    padding: 0 5px;
+    text-decoration: none;
+}
+
+#footer ul.navigation li:first-child a {
+    border-left: 0;
+    padding-left: 0;
+}
+
+#footer ul.navigation li a:hover {
+    color: #eee7c3;
+}
+
+#footer ul.navigation li.active a {
+    color: #fff;
+}
+
+#connect {
+    float: right;
+    display: inline-block;
+    line-height: 26px;
+    margin: 12px 0 0;
+}
+
+#connect a {
+    background: url(../images/icons.png) no-repeat;
+    display: inline-block;
+    height: 23px;
+    width: 23px;
+    margin-left: 10px;
+}
+
+#connect a.pinterest {
+    background-position: 0 -33px;
+}
+
+#connect a.facebook {
+    background-position: 0 -98px;
+}
+
+#connect a.twitter {
+    background-position: 0 -164px;
+    width: 28px;
+}
+
+#connect a.googleplus {
+    background-position: 0 -230px;
+}
+
+#connect a.pinterest:hover {
+    background-position: 0 0;
+}
+
+#connect a.facebook:hover {
+    background-position: 0 -65px;
+}
+
+#connect a.twitter:hover {
+    background-position: 0 -131px;
+}
+
+#connect a.googleplus:hover {
+    background-position: 0 -197px;
+}
+
+/* Styling for specific sections */
+
+/* Home */
+#home {
+    background-color: #f3f3f3;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+#home h1 {
+    color: #316e66;
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+#home p {
+    color: #5a4535;
+    font-size: 18px;
+    line-height: 28px;
+    margin-bottom: 20px;
+}
+
+/* Adventure */
+#adventure {
+    background-color: #f9f9f9;
+    padding: 20px;
+    margin-bottom:
